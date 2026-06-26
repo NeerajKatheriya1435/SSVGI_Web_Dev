@@ -4,149 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        /* *{
+            color: blue;
+        } */
+
+        /* h1{
+            color: blue;
+        } */
+
+        /* #second{
+            background-color: blueviolet;
+        } */
+
+        /* p{
+            background-color: blue;
+        } */
+
+        /* .boxPara{
+            color: blue;
+            background-color: chartreuse;
+        } */
+
+        /* h1,p,span{
+            background-color: blue;
+        } */
+/* 
+        div p{
+            color: rgb(13, 98, 70);
+        } */
+        /* div>p{
+            color: rgb(163, 92, 11);
+        }
+
+        input[type="text"]{
+            color: rgb(255, 145, 0);
+        } */
+        #first:hover{
+            color: blue;
+            width: 300px;
+            background-color: rgb(191, 175, 175);
+         }
+
+        input[type="email"]:focus{
+            outline: none;
+            border: 2px solid rgb(187, 32, 15);
+        }
+        
+        li:nth-child(1){
+            color: aqua;
+            border: 2px solid red;
+        }
+
+    </style>
 </head>
+
 <body>
-    
-    <!-- <table border="2px" bordercolor="green" cellpadding="10" cellspacing="15" bgcolor="cyan">
-        <caption>Student Record</caption>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Course</th>
-                <th>Gender</th>
-            </tr>
-        </thead>
+    <div>
+        <h1 id="first">What is your name</h1>
+        <h1 id="second">What is your name</h1>
+        <h1 class="boxPara">What is your name</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <section>
+            <main>
+                <p class="boxPara">Lorem ipsum dolor sit amet consectetur.1</p>
+                <p class="boxPara">Lorem ipsum dolor sit amet consectetur.2</p>
+            </main>
+            Hello how are you
+        </section>
+    </div>
+    <p class="boxPara">Lorem ipsum dolor sit amet consectetur.1</p>
 
-        <tbody>
-            <tr>
-                <td>Rohan</td>
-                <td>56</td>
-                <td>B.Tech</td>
-                <td>Male</td>
-            </tr>
-            <tr>
-                <td>Shivani</td>
-                <td>45</td>
-                <td>B.Tech</td>
-                <td>Female</td>
-            </tr>
-        </tbody>
+    <div class="box">
+        <span>
+            hello text how are you
+        </span>
+    </div>
+    <p class="boxPara">Lorem ipsum dolor sit amet consectetur.1</p>
 
-        <tfoot>
-            <tr>
-                <td>Total</td>
-                <td colspan="3"></td>
-            </tr>
-        </tfoot>
-    </table> -->
+    <form action="">
+       Name: <input type="text" name="name" id="">
+       Email: <input type="email" name="email" id="">
+    </form>
 
-    <!-- <table border="2px" bordercolor="green" cellpadding="10" cellspacing="15" bgcolor="cyan">
-        
-        <tr>
-            <td colspan="2"></td>
-            <td>Course</td>
-        </tr>
-        <tr>
-            <td >Shivam</td>
-            <td>34</td>
-            <td>B.Tech</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Span Area</td>
-            <td>34</td>
-            <td>Diploma</td>
-        </tr>
-        <tr>
-            <td>67</td>
-            <td>B.Tech</td>
-        </tr>
-
-    </table> -->
-
-    <!-- <div> -->
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, rerum.</p>
-        <p>Lorem <b>Bold Text</b> consectetur adipisicing elit. Quasi, rerum.</p>
-        <p>Lorem <i>Bold Text</i> consectetur adipisicing elit. Quasi, rerum.</p> -->
-        
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, rerum.</p>
-        <p>Lorem <strong>Bold Text</strong> consectetur adipisicing elit. Quasi, rerum.</p>
-        <p>Lorem <em>Bold Text</em> consectetur adipisicing elit. Quasi, rerum.</p> -->
-
-
-    <!-- </div> -->
-
-    <h1>Student Data</h1>
-    
-    
-    <!-- <label for="">Email: </label>
-    <input type="email" name="" id=""> <br><br>
-    <label for="">Number: </label>
-    <input type="number" name="" id=""> <br><br>
-
-    <label for="">Language: </label>
-    Hindi<input type="checkbox" name="" id="">
-    English<input type="checkbox" name="" id="">
-    Spanish<input type="checkbox" name="" id=""> <br><br>
-
-    <label for="">Gender:</label>
-    Male<input type="radio" name="gender" id="">
-    Female<input type="radio" name="gender" id="">
-    Other<input type="radio" name="gender" id="">
-
-    <br> <br>
-    Photo: <input type="file" name="" id=""> <br> <br>
-    Subbmission Date: <input type="date" name="" id=""> <br> <br>
-    Subbmission Time: <input type="time" name="" id=""> <br> <br> -->
-
-    
-
-    <!-- Select College: <Select>
-        <option value="">SSVGI</option>
-        <option value="">KCMT</option>
-        <option value="">SRMS</option>
-        <option value="">Invertis</option>
-        <option value="">Rajshree</option>
-        <option value="">Future</option>
-    </Select> -->
-
-    <!-- <form action="">
-        <label for="">Name: </label>
-    <input type="text" name="" id="" placeholder="Enter Your name"> <br><br>
-    Please Comment: <textarea rows="10" cols="50" name="" id="" placeholder="Please Write Someting..."></textarea> <br><br>
-       <label for="">Email: </label>
-    <input type="email" name="" id=""> <br><br>
-    <label for="">Number: </label>
-    <input type="number" name="" id=""> <br><br>
-        Select College: <Select>
-        <optgroup label="Bareilly">
-            <option value="">SSVGI</option>
-            <option value="">KCMT</option>
-            <option value="">SRMS</option>
-            <option value="">Invertis</option>
-            <option value="">Rajshree</option>
-            <option value="">Future</option>
-        </optgroup>
-        <optgroup label="Delhi">
-            <option value="">IP University</option>
-            <option value="">Delhi University</option>
-            <option value="">IIT</option>
-        </optgroup>
-    </Select>
-    <br><br>
-    <input type="submit" name="" id="">
-    <input type="reset" name="" id=""> <br><br>
-    </form> -->
-
-    <!-- <a target="_blank" href="day1.html">Google</a> -->
-
-    <!-- <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-    </nav> -->
-
-
-
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+    </ol>
 </body>
 </html>
