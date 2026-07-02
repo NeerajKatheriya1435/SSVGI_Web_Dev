@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        ul{
+            display: flex;
+
+        }
+        ul li{
+            list-style: none;
+            margin: 10px;
+        }
+
+        .container{
+            display: grid;
+            /* background-color: rgb(255, 212, 127); */
+            height: 100vh;
+            grid-template-rows: 1fr 10fr 2fr;
+        }
+        .item{
+            background-color: rgb(175, 244, 161);
+            border: 2px solid red;
+        }
+        .header{
+            grid-column: 1/4;
+        }
+        .sidebar{
+            grid-column: 1/2;
+            grid-row: inherit;
+        }
+        .main{
+            grid-column: 2/4;
+        }
+        .footer{
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Sign UP</li>
+            </ul>
+        </div>
+        <div class="item sidebar">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda est tempore consequatur a enim, maiores culpa nobis itaque, libero nostrum dolores dolorem delectus officia incidunt accusamus magnam sunt, laborum amet numquam asperiores. Numquam eos reprehenderit provident sunt ipsa cum impedit, perferendis maxime dolor officiis! Rerum exercitationem temporibus aliquid eveniet placeat pariatur ea cupiditate odio, corporis mollitia error necessitatibus tenetur. Numquam quia, mollitia aliquid obcaecati fuga soluta optio esse iptinctio aliquid doloribus quaerat numquam suscipit aperiam, asperiores autem totam iure cumque quam vero fuga sunt iste! Ipsa blanditiis commodi facere sint dignissimos veritatis hic? Ea et, dolore, harum facere aperiam corporis earum modi ipsa velit tempora, voluptatem at eveniet sint! Laborum tempore voluptatem alias accusantium minima temporibus dolores!</div>
+        <div class="item main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos adipisci et maxime vitalias non amet voluptate nesciunt expedita esse nihil cum sunt atque excepturi est enim odit vero officia porro, mollitia laboriosam sapiente eligendi molestias? Itaque molestias minima animi ex quod ab temporibus in id, accusantium et. Ipsum amet consequuntur ipsa, nostrum libero natus autem sit commodi modi consectetur id qui odit quos voluptate asperiores quasi dignissimos vel maiores nihil vero iste eaque porro mollitia repudiandae! Maiores, et. A consequatur culpa nostrum excepturi consectetur corrupti maxime minus iste sapiente quos nisi laudantium, saepe enim ad consequuntur nemo? Dolore eaque quasi qui temporibus excepturi totam, itaque ea unde hic aperiam, possimus nemo? Dolorem provident sed nisi fuga explicabo dolore minus quisquam. Assumenda, vitae distinctio! Ratione consequatur eligendi, excepturi omnis recusandae dolor? Eveniet molestias ipsum in sint obcaecati, quas praesentium exercitationem. Eos qui est rem corporis, quis sunt. Possimus unde ut ipsa! Numquam recusandae dolor tempora hic suscipit. Sit doloremque voluptatem mollitia tenetur ipsam laudantium quisquam fuga incidunt voluptatum in nemo, laborum ullam harum aut? Rem vel repellat labore? Nam sapiente repellendus omnis cum dolorem dolores, harum beatae neque, voluptas molestias doloremque eligendi consectetur quod tenetur est nostrum odio inventore hic corrupti reprehenderit. Quam quibusdam cumque, amet illum dolorem ipsa vitae earum eos aliquam maiores, officia obcaecati, molestiae ullam ipsam minus voluptates iste corporis dicta. Sit aspernatur, quia magnam esse, dolor vel tempore ad culpa aliquid incidunt tempora impedit non earum? Nihil, facilis non, doloremque dolor aliquid, ipsum corporis culpa recusandae modi quos magnam et dolorem a? Molestias vero ipsam maxime, sit ducimus repellat eos fuga labore in nam mollitia obcaecati nisi veniam, aspernatur officia numquam repudiandae similique quo incidunt magni unde consequuntur deleniti? Obcaecati magni saepe suscipit veniam dolor, doloribus reiciendis totam animi. Facere laborum autem assumenda, et doloribus nemo corrupti laboriosam eum sapiente eius nesciunt incidunt debitis error.</div>
+        <div style="text-align: center;" class="item footer">All the rights are resereved &copy; and Neeraj This Side</div>
+    </div>
+</body>
+</html>

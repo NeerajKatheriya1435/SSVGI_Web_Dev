@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(213, 190, 235);
+
+        }
+        ul li{
+            list-style: none;
+            margin: 15px;
+            font-size: 22px;
+        }
+        .box{
+            display: flex;
+        }
+
+        .right{
+            display: flex;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .mainBox{
+            display: flex;
+            background-color: rgb(234, 248, 186);
+            height: 80vh;
+        }
+        .newbox{
+            height: 100%;
+            width: 50%;
+        }
+
+        .leftBox{
+            /* border: 2px solid green; */
+            padding: 100px
+        }
+        .rightBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid green; */
+            
+        }
+        img{
+            width: 70%;
+            height: 70%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Techvision</a></li>
+                <div class="box">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </div>
+                <div class="right">
+                    <li><a href="">Sign In</a></li>
+                    <li><a href="">Sign Up</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mainBox">
+            <div class="leftBox newbox">
+                <h1 style="margin-bottom: 20px;">Idea that inspire <br> inform and entertain</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae et cupiditate incidunt? Impedit cumque earum veritatis voluptates ullam esse et voluptatibus magni voluptas, minus laudantium dolore deleniti dicta ut vel inventore cupiditate sit accusamus quaerat expedita ea. Harum, incidunt adipisci.</p>
+            </div>
+            <div class="rightBox newbox">
+                <img src="./titli.jpg" alt="">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
