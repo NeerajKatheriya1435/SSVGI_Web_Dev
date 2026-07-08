@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1 class="heading1 heading" id="head1">
+            Document Object Model
+        </h1>
+        <div class="another">
+            <section class="sect">
+                <h2 class="hello">
+                    hello my name is neeraj
+                </h2>
+                <p class="hello">
+                    hello my name is abhishek
+                </p>
+                <h3 class="hello">
+                    hello my name is change
+                </h3>
+            </section>
+        </div>
+
+        <div class="box">
+            <h1 class="num num1" id="numnew1">5</h1>
+            <h1 class="num num2" id="numnew2">6</h1>
+            <div class="answer" style="font-size: 23px;">Result</div>
+            <button class="btn">Click to add</button>
+        </div>
+    </div>
+    
+    <script>
+        // let arr1=[3,7,4,8,5,4]
+        // let arr2=[56,78,98,65]
+
+        // let [a,b,c,d,e,f]=arr
+        // let [a,b,c,d,,f]=arr
+
+        // console.log(a)
+        // console.log(b)
+
+        // let arr3=[...arr1,...arr2]
+        // console.log(arr3)
+
+        // let [a,b,...rest]=arr1
+        // console.log(a)
+        // console.log(b)
+        // console.log(rest)
+        // console.log("Hello")
+        // console.warn("Hello")
+        // console.error("Hello")
+        // console.table(arr1)
+        // console.info("This is some useful info.");
+
+        // let headSt1=document.getElementById("head1")
+        // headSt1.innerHTML="Hello Bhavyata"
+        // let a=document.querySelector(".heading")
+        // let a=document.querySelectorAll(".heading")
+        // let a=document.getElementsByClassName("heading")
+        // let a=document.getElementsByTagName("p")[0]
+        // a.style.backgroundColor="red"
+        // console.log(a)
+        // let h2Head=document.createElement("h2")
+        // h2Head.innerHTML="Clear Difference – Window vs BOM vs DOM"
+        // document.body.appendChild(h2Head)
+        // let a= document.querySelector(".heading1")
+        // console.log(a.firstElementChild)
+        // console.log(a.firstChild)
+        // console.log(a.parentElement)
+
+        // let a= document.querySelector(".sect")
+        // console.log(a.children)
+        // console.log(a.childNodes)
+        // console.log(a.firstChild)
+        // console.log(a.firstElementChild)
+        // console.log(a.lastElementChild)
+
+        // console.log(a.parentElement)
+        // console.log(a.children)
+        // console.log(a.firstElementChild.nextElementSibling.nextElementSibling)
+        // console.log(a.lastElementChild.previousElementSibling)
+
+        let a=Number.parseInt(document.getElementById("numnew1").innerText)
+        let b=Number.parseInt(document.getElementById("numnew2").innerText)
+        let c=a+b
+        
+        let result=document.querySelector(".answer")
+       
+        let btn=document.querySelector(".btn")
+        btn.addEventListener("click",()=>{
+            console.log("Hello")
+            result.innerHTML=c
+        })
+    
+    </script>
+</body>
+</html>
