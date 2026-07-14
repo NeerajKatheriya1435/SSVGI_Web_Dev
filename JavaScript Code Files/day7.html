@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        // class Human{
+        //     // name="Deeksha"
+        //     // age=19
+        //     // salary=78000
+        //     constructor(name,age,salary){
+        //         this.name=name
+        //         this.age=age
+        //         this.salary=salary
+        //     }
+
+        //     details() {
+        //         console.log("My name is: "+this.name)
+        //         console.log("My age is: "+this.age)
+        //         console.log("My salary is: "+this.salary)
+        //     }
+        // }
+
+        // let h1=new Human()
+        // console.log(h1.name)
+        // console.log(h1.age)
+        // console.log(h1.salary)
+
+        // let h2=new Human()
+        // h2.name="Shirasti"
+        // h2.age=19
+        // h2.salary=45000
+        // console.log(h2.name)
+        // console.log(h2.age)
+        // console.log(h2.salary)
+
+        // let h1=new Human("Rohan",45,34000)
+        // console.log(h1.name)
+        // console.log(h1.age)
+        // console.log(h1.salary)
+
+        // let h2=new Human("Shiva",25,32000)
+        // console.log(h2.name)
+        // console.log(h2.age)
+        // console.log(h2.salary)
+
+        // let h1=new Human("Rohan",45,34000)
+        // h1.details()
+        // let h2=new Human("Shiva",25,32000)
+        // h2.details()
+        // let h3=new Human("Priya",19,56000)
+        // h3.details()
+
+        // let h4=new Human()
+        // console.log(h4.name)
+        // console.log(h4.age)
+
+
+        // class Human{
+        //     run() {
+        //         console.log("I can run")
+        //     }
+        //     walk() {
+        //         console.log("I can walk")
+        //     }
+        // }
+
+        // class Employee extends Human{
+
+        //     work(){
+        //         console.log("Employee is working")
+        //     }
+        // }
+        // class Programmer extends Employee{
+
+        //     prog(){
+        //         console.log("Employee can program")
+        //     }
+        // }
+
+        // let h1=new Human()
+        // h1.run()
+        // h1.walk()
+        // h1.work()
+
+        // let h1=new Employee()
+        // h1.run()
+        // h1.walk()
+        // h1.work()
+
+        // let h1=new Programmer()
+        // h1.run()
+        // h1.walk()
+        // h1.work()
+        // h1.prog()
+
+
+        class Human{
+
+            constructor(name,age){
+                this.name=name
+                this.age=age
+            }
+
+            run() {
+                console.log("I can run")
+            }
+        }
+
+        class Employee extends Human{
+
+            constructor(name,age,language){
+                super(name,age)
+                this.language=language
+            }
+            work(){
+                console.log("Employee is working")
+                super.run()
+            }
+        }
+
+        let e1= new Employee("Rohan",56,"Python")
+        e1.work()
+        e1.run()
+    </script>
+</body>
+</html>
